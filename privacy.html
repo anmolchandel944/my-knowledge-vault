@@ -1,0 +1,136 @@
+ <!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | My Knowledge Vault</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #f8f9fc;
+            --text: #1a1a2e;
+            --accent: #6c5ce7;
+            --light: #555;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            padding: 2rem 1rem;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 2.5rem;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+            border: 1px solid #eee;
+        }
+        h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.2rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+            color: var(--text);
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 0.5rem;
+        }
+        p, li {
+            font-size: 1rem;
+            color: var(--light);
+            margin-bottom: 1rem;
+        }
+        ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        .highlight { color: var(--accent); font-weight: 600; }
+        .back { 
+            display: inline-block; 
+            margin-top: 2rem; 
+            color: var(--accent); 
+            text-decoration: none; 
+            font-weight: 500; 
+        }
+        .back:hover { text-decoration: underline; }
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .container { padding: 2rem; }
+            h1 { font-size: 1.9rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Privacy Policy</h1>
+    <p style="text-align:center; color:#777; margin-bottom:2rem;">
+        Last Updated: <span class="highlight">November 07, 2025</span>
+    </p>
+
+    <h2>1. Yeh Website Kya Hai?</h2>
+    <p>
+        <strong>My Knowledge Vault</strong> ek <span class="highlight">personal showcase</span> hai. 
+        Yahan main apni samajh, theories, aur knowledge ko display karta hoon — jaise Pi ki discovery, black holes, ya space-time.
+    </p>
+    <p>
+        <strong>Yeh koi search engine, AI tool, ya data collector nahi hai.</strong>
+    </p>
+ 
+    <h2>3. Google, Books, ya AI se Data?</h2>
+    <p>
+        <strong>Nahi.</strong> Yeh website <span class="highlight">sirf meri apni samajh</span> ko dikhati hai. 
+        Koi bhi content Google se scrape nahi kiya gaya. Koi book copy nahi ki gayi. Koi AI generate nahi kiya.
+    </p>
+    <p>
+        Sab kuch <span class="highlight">meri padhai, soch, aur samajh</span> se likha gaya hai.
+    </p>
+
+    <h2>4. Agar Aapko Lagta Hai Kuch Galat Hai</h2>
+    <p>
+        Agar aapko lagta hai ki koi content <span class="highlight">copyright, plagiarism, ya galat hai</span>, toh turant email karein:
+    </p>
+    <p>
+        <strong>Email:</strong> <a href="mailto:your.email@example.com" class="highlight">your.email@example.com</a>
+    </p>
+    <p>
+        Main <span class="highlight">24 ghante ke andar</span> check karunga aur galat content hata dunga.
+    </p>
+
+    <h2>5. Hosting & Safety</h2>
+    <p>
+        Yeh site static hosting pe hai (jaise GitHub Pages ya Vercel). 
+        Server logs ho sakte hain lekin <strong>main unko nahi dekhta, use nahi karta, ya save nahi karta</strong>.
+    </p>
+
+    <h2>6. Changes</h2>
+    <p>
+        Agar policy badlegi, toh yahan update kar dunga.
+    </p>
+
+    <a href="index.html" class="back">Back to Home</a>
+</div>
+
+<footer>
+    © <span id="year"></span> My Knowledge Vault • Made with honesty & curiosity
+</footer>
+
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
